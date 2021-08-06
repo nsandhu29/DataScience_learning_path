@@ -1,0 +1,51 @@
+---
+title: "R_notes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Packages in R
+
+-   Installing packages
+
+        install.packages("ggplot2")
+
+-   Calling Packages
+
+        library(ggplot2)
+
+-   When you don't know what package to use:
+
+-   www.r-bloggers.com
+
+# Create series of numbers:
+
+-   12:42 \# Naming convention
+-   camel case
+
+# List all visible elements ls()
+
+# Data Types
+
+-   integer - whole numbers; a \<- 1, a \<- c(1L, 3L, 5L, 7L) (typeof())
+-   double
+-   characters - Text
+-   logical - boolean data T&F = TRUE&FALSE
+-   complex
+-   raw
+
+# Coercion Rules
+
+## Functions in R
+
+-   arguments function takes -\> args(function_name)
+-   
+
+## Vectors
+
+-   Vectors - a sequence data elements that are of same type (is.vector())
+-   **Vector Recycling**: When we are adding two vectors of different length, R reuses elements of shorter vector.
+- Names, class and dimensions
